@@ -1,0 +1,83 @@
+MICROSOFT.NET PROGRAMS
+
+Program to Accept two number from user and do sum of it :-
+
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Demo
+    {
+        public int sum(int a,int b)
+            {
+                return a+b;
+             }
+    
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Demo d = new Demo();
+            Console.WriteLine("Enter Two Numbers :");
+            String a1=Console.ReadLine();
+            String b1=Console.ReadLine();
+            int x= int.Parse(a1);
+            int y= int.Parse(b1);
+            Console.WriteLine("Sum is :");
+            Console.WriteLine( d.sum(x,y));
+
+        }
+    }
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Program to  Accept a float value and print square of that number 
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    class DoSquare
+    {
+        public float square(float a)
+        {
+            return a * a;
+        }
+    }
+    
+    internal class Program
+    {
+ 
+
+       static void Main(string[] args)
+        {
+            DoSquare d = new DoSquare();
+
+            Console.WriteLine("Enter A Number :");
+            String a1=Console.ReadLine();
+            float x = float.Parse(a1);
+            Console.WriteLine("Square Of The Number :");
+            Console.WriteLine(d.square(x));
+        }
+    }
+}
+
+__________________________________________________________________________________________________________________________________________
+
+
+
+
